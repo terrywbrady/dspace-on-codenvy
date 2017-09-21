@@ -1,6 +1,6 @@
 ## Goal
 
-Explore [Codenvy](http://codenvy.io) as a development and testing environment for DSpace Contributors.
+Explore [Codenvy](http://codenvy.com) as a development and testing environment for DSpace Contributors.
 
 Codenvy servers stay alive through 10 min of activity in unpaid accounts.  Servers associated with a paid account stay alive for 4 hours.
 
@@ -72,7 +72,7 @@ Create /projects/dspace-install
 
 Change postgres user to "user".  Set install dir to /projects/dspace-install.
 
-    [local.cfg](local.cfg)
+[local.cfg](local.cfg)
 
 ![Che Screenshot](screenshots/cheEditor.png)    
     
