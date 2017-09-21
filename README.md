@@ -25,12 +25,22 @@ The following [Dockerfile](Dockerfile) has been used for testing.
 - Name the Stack "aadspace"
 - Set the Runtime workstation to 4GB
 
+![Build Stack Screenshot](screenshots/buildStack.png)    
+
+![Stack Config Screenshot](screenshots/stackConfig.png)    
+
+
 ### Workspace Creation
 
 - create a workspace
 - choose "Single Machine" and select the Stack "aadspace"
 - name the workspace "dspace"
 - launch the workspace
+
+![Add Workspace Screenshot](screenshots/addWorkspace.png)    
+
+![Configure Wrokspace Screenshot](screenshots/configureWorkspace.png)    
+
 
 ## Post Docker Setup Tasks
 
