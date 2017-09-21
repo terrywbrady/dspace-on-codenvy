@@ -70,11 +70,17 @@ Create /projects/dspace-install
 
 ## Create local.cfg
 
-Change postgres user to "user".  Set install dir to /projects/dspace-install.
+Copy DSpace/dspace/config/local.cfg.EXAMPLE to DSpace/local.cfg
 
-[local.cfg](local.cfg)
+Make the following changes
+- https://github.com/terrywbrady/dspace-on-codenvy/blob/master/local.cfg#L31
+- https://github.com/terrywbrady/dspace-on-codenvy/blob/master/local.cfg#L88
+
+Codenvy seems to perform some unexpected git refreshes.
 
 ![Che Screenshot](screenshots/cheEditor.png)    
+
+Copy DSpace/local.cfg to ~/local.cfg in case you need to recreate it.
     
 ## Build Code
 
