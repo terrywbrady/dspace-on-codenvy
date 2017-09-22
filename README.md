@@ -136,3 +136,14 @@ Click the link to open (and share) your DSpace instance
 
 ![Codenvy DSpace Screenshot](screenshots/codenvyDSpace.png)    
 
+## Next Steps
+
+- Add Mirage2 dependencies to Dockerfile
+- Automate database setup and other post install setup to Dockerfile
+- Fix issue requiring a manual restart of postgres on startup
+- Build a sharable workspace config for DSpace that automatically clones DSpace
+- Evaluate platform for contribution work
+  - How good is Che as an editor when working with the DSpace code base?
+  - How effective is Codenvy for PR testing/evaluation?
+- Package DSpace workspace configurations for sharing
+- Understand Codenvy team account costs and features
