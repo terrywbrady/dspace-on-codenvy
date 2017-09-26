@@ -147,7 +147,9 @@ Click the link to open (and share) your DSpace instance
   - How effective is Codenvy for PR testing/evaluation?
 - Package DSpace workspace configurations for sharing
 - Understand Codenvy team account costs and features
+  - I sent a request to the vendor asking for more pricing information, but I have not received a response
 - In the dockerfile, Create a stable install dir that does not reside in ~
+  - or figure out how to get more space available
 
 ## Unexpected behaviors
 
