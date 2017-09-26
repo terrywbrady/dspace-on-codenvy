@@ -66,7 +66,7 @@ Add pgcrypto to database
 
 Clone DSpace into /projects
 
-Create /projects/dspace-install
+Create ~/dspace-install
 
 ## Create local.cfg
 
@@ -147,3 +147,9 @@ Click the link to open (and share) your DSpace instance
   - How effective is Codenvy for PR testing/evaluation?
 - Package DSpace workspace configurations for sharing
 - Understand Codenvy team account costs and features
+- In the dockerfile, Create a stable install dir that does not reside in ~
+
+## Unexpected behaviors
+
+* Changes made to /projects/DSpace/local.cfg are lost each time the server is restarted.  The server seems to refresh from git on restart.
+* User "user" is able to write to /projects and to /home/user.  There is more space in /projects.  But, if the dspace-install dir is placed under /projects, the IDE (che) becomes unstable.  See not above about the install dir.
