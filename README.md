@@ -90,10 +90,10 @@ Copy DSpace/local.cfg to ~/local.cfg in case you need to recreate it.
 ### Create webapps symlinks
 
     cd ~/tomcat8/webapps
-    ln -s /projects/dspace-install/webapps/xmlui xmlui
-    ln -s /projects/dspace-install/webapps/jspui jspui
-    ln -s /projects/dspace-install/webapps/oai oai
-    ln -s /projects/dspace-install/webapps/rest rest
+    ln -s ~/dspace-install/webapps/xmlui xmlui
+    ln -s ~/dspace-install/webapps/jspui jspui
+    ln -s ~/dspace-install/webapps/oai oai
+    ln -s ~/dspace-install/webapps/rest rest
 
 
 ## Codenvy Runtime Configs
