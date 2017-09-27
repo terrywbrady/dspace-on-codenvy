@@ -163,8 +163,9 @@ Click the link to open (and share) your DSpace instance
   - How effective is Codenvy for PR testing/evaluation?
 - Build a sharable workspace config for DSpace that automatically clones DSpace
   - Tom Desair has done something like this for DSpace 7: http://bit.ly/dspace-ng-ide-v0_1
-- Understand Codenvy team account costs and features
+- Understand Codenvy [team account](https://codenvy.io/docs/user-guide/teams/index.html) costs and features
   - I sent a request to the vendor asking for more pricing information, but I have not received a response
+  - https://codenvy.com/product/index.php#pricing
 
 ## Unexpected behaviors
 
