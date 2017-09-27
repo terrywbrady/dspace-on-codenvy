@@ -16,6 +16,8 @@ I have not tested a 3GB workspace if the free tier.  If 3GB is sufficient, this 
 
 The following [Dockerfile](Dockerfile) has been used for testing.
 
+The following [Workspace Config](workspace.json) could be useful in replicating this setup.  (RAM has been set to 3GB)
+
 ## Codenvy Setup Process
 
 ### Stack Creation
