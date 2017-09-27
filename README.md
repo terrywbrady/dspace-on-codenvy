@@ -84,8 +84,15 @@ Copy DSpace/local.cfg to ~/local.cfg in case you need to recreate it.
     
 ## Build Code
 
-- mvn package
-- ant install
+### Maven Build
+
+    cp ~/local.cfg /projects/DSpace
+    mvn clean package -f ${current.project.path}
+
+### DSpace Install
+Start postgres first!
+
+    ant -f ${current.project.path}/dspace/target/dspace-installer/build.xml update
 
 ### Create webapps symlinks
 
