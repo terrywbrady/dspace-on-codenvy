@@ -138,20 +138,27 @@ Click the link to open (and share) your DSpace instance
 
 ## Next Steps
 
+### Dockerfile TODOs
+
 - Add Mirage2 dependencies to Dockerfile
 - Automate database setup and other post install setup to Dockerfile
+- Find a larger filesystem that /home/user.  Build a dspace-install folder on that file system.
+  - See https://codenvy.io/docs/getting-started/volume-mounts/index.html
+- Build local.cfg in Dockerfile
 - Fix issue requiring a manual restart of postgres on startup
-- Build a sharable workspace config for DSpace that automatically clones DSpace
+  
+### DSpace Configuration  
+  
 - Evaluate platform for contribution work
   - How good is Che as an editor when working with the DSpace code base?
   - How effective is Codenvy for PR testing/evaluation?
-- Package DSpace workspace configurations for sharing
+- Build a sharable workspace config for DSpace that automatically clones DSpace
+  - Tom Desair has done something like this for DSpace 7: http://bit.ly/dspace-ng-ide-v0_1
 - Understand Codenvy team account costs and features
   - I sent a request to the vendor asking for more pricing information, but I have not received a response
-- In the dockerfile, Create a stable install dir that does not reside in ~
-  - or figure out how to get more space available
 
 ## Unexpected behaviors
 
 * Changes made to /projects/DSpace/local.cfg are lost each time the server is restarted.  The server seems to refresh from git on restart.
+  * I suspect that this is because local.cfg is in .gitignore.  The build script has been modified to pull local.cfg from /home/user.
 * User "user" is able to write to /projects and to /home/user.  There is more space in /projects.  But, if the dspace-install dir is placed under /projects, the IDE (che) becomes unstable.  See not above about the install dir.
