@@ -101,7 +101,7 @@ Start postgres first!
     ln -s ~/dspace-install/webapps/jspui jspui
     ln -s ~/dspace-install/webapps/oai oai
     ln -s ~/dspace-install/webapps/rest rest
-
+    ln -s ~/dspace-install/webapps/solr solr
 
 ## Codenvy Runtime Configs
 
