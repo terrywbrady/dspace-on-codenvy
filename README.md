@@ -172,3 +172,4 @@ Click the link to open (and share) your DSpace instance
 * Changes made to /projects/DSpace/local.cfg are lost each time the server is restarted.  The server seems to refresh from git on restart.
   * I suspect that this is because local.cfg is in .gitignore.  The build script has been modified to pull local.cfg from /home/user.
 * User "user" is able to write to /projects and to /home/user.  There is more space in /projects.  But, if the dspace-install dir is placed under /projects, the IDE (che) becomes unstable.  See not above about the install dir.
+* The DSpace REST api is inaccessible from Codenvy using this configuration
